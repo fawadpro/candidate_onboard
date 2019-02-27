@@ -1,0 +1,19 @@
+.ant-upload-list-item-error,
+.ant-upload-list-item-error .anticon-paper-clip,
+.ant-upload-list-item-error .ant-upload-list-item-name {
+  color: green;
+}
+
+.ant-upload-list-item-error .anticon-close {
+  color: green;
+}
+
+.ant-upload-list-picture .ant-upload-list-item-error,
+.ant-upload-list-picture-card .ant-upload-list-item-error {
+  border-color: green;
+}
+
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+  font-size: 48px;
+  color: #FF9800;
+}
