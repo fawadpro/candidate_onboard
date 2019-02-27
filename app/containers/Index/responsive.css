@@ -1,0 +1,73 @@
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 800px)  {
+    .logo-wrapper img {
+        max-width: 150px;
+    }
+
+    /* nav list style */
+
+    ul#nav-info {
+        list-style-type: none;
+        margin-left: 190px;
+    }
+
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+
+    .logo-wrapper img {
+        max-width: 120px;
+    }
+    #nav-info {
+        list-style-type: none;
+        margin-left: 150px;
+        padding: 0;
+    }
+    ul#nav-info li {
+        display: inline;
+        color: #404040;
+        /* padding-right: 16px; */
+        font-size: 14px;
+        padding-bottom: 0.2rem;
+        padding-left: 5px;
+    }
+
+    .navbar .container{
+        padding-right: 0;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .logo-wrapper img {
+        max-width: 100px;
+    }
+    #nav-info {
+        list-style-type: none;
+        margin-left: 125px;
+        padding: 0;
+    }
+    ul#nav-info li {
+        display: block;
+        color: #404040;
+        /* padding-right: 16px; */
+        font-size: 14px;
+        padding-bottom: 0.2rem;
+        padding-left: 5px;
+    }
+
+    .navbar .container{
+        padding-right: 0;
+    }
+}
