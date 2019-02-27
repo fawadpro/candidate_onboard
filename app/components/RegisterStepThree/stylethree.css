@@ -1,0 +1,9 @@
+.ant-upload-list-item-error,
+.ant-upload-list-item-error .anticon-paper-clip,
+.ant-upload-list-item-error .ant-upload-list-item-name {
+  color: green;
+}
+
+.ant-upload-list-item-error .anticon-close {
+  color: green;
+}
